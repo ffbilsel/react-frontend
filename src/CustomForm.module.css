@@ -1,0 +1,31 @@
+.form {
+    display: inline-block;
+    border: lightblue 2px solid;
+    border-radius: 1rem;
+    margin: 25px;
+}
+
+.form * {
+    margin: 0;
+    padding: 0;
+}
+.label, .input {
+    width: 150px;
+    display: inline-block;
+}
+
+.input {
+    box-sizing: border-box;
+}
+
+.line {
+    width: 300px;
+    margin: 25px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
